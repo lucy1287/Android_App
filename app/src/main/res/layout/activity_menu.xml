@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2a222222"
+        android:columnCount="4"
+        android:layout_margin="15dp"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/baseline_text_fields_24"
+            android:drawablePadding="4dp"
+            android:text="텍스트\n입출력"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/baseline_breakfast_dining_24"
+            android:drawablePadding="4dp"
+            android:text="토스트"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/baseline_call_24"
+            android:drawablePadding="4dp"
+            android:text="전화"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/baseline_message_24"
+            android:drawablePadding="4dp"
+            android:text="메시지"
+            android:textColor="@color/black" />
+
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
