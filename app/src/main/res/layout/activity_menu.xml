@@ -57,6 +57,61 @@
             android:text="메시지"
             android:textColor="@color/black" />
 
+        <Button
+            android:id="@+id/btn_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/baseline_add_photo_alternate_24"
+            android:drawablePadding="4dp"
+            android:text="사진"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_photo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/baseline_add_photo_alternate_24"
+            android:drawablePadding="4dp"
+            android:text="사진2"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_file2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/baseline_folder_24"
+            android:drawablePadding="4dp"
+            android:text="파일"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/baseline_contact_page_24"
+            android:drawablePadding="4dp"
+            android:text="주소록"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/baseline_map_24"
+            android:drawablePadding="4dp"
+            android:text="지도"
+            android:textColor="@color/black" />
+
 
     </GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

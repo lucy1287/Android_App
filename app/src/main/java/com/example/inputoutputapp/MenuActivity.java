@@ -48,5 +48,45 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        binding.btnPhoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), PhotoActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnPhoto2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MultiPhotoActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnFile2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MultiFileActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnContact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ContactActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
