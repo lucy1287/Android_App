@@ -13,7 +13,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.inputoutputapp.databinding.ActivityRootFileBinding;
-import com.example.inputoutputapp.databinding.ActivityViewBinding;
 
 import java.io.File;
 import java.util.ArrayList;

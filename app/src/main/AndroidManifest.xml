@@ -7,12 +7,17 @@
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.SEND_SMS" />"
-    "<uses-permission android:name="android.permission.RECEIVE_SMS" />"
-    "<uses-permission android:name="android.permission.READ_PHONE_STATE" />"
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />"
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
+        android:name=".GlobalApplication"
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -21,6 +26,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InputOutputApp"
         tools:targetApi="31">
+        <meta-data android:name="com.kakao.sdk.AppKey" android:value="ac4a3d98cf8e116392d79863f3f9c800" />
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="kdm3zqe1gt"/>
         <activity
             android:name=".MenuActivity"
             android:exported="true">
@@ -57,7 +66,28 @@
         </activity>
 
         <activity
+            android:name=".NuboCallActivity"
+            android:exported="false">
+        </activity>
+
+
+        <activity
             android:name=".MessageActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".NuboMessageActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".UrlActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".NuboUrlActivity"
             android:exported="false">
         </activity>
 
@@ -83,6 +113,31 @@
 
         <activity
             android:name=".MapActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".MapKakaoActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".MapNaverActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".NaviActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".SurfaceViewActivity"
             android:exported="false">
         </activity>
 

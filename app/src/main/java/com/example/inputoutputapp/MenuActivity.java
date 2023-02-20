@@ -41,10 +41,42 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
+        binding.btnNuboCall.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), NuboCallActivity.class);
+                startActivity(intent);
+            }
+        });
+
         binding.btnMessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MessageActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnNuboMessage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), NuboMessageActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnUrl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), UrlActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnNuboUrl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), NuboUrlActivity.class);
                 startActivity(intent);
             }
         });
@@ -85,6 +117,46 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnMapKakao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MapKakaoActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnMapNaver.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MapNaverActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnNavi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), NaviActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnWebView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), WebViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.btnSurfaceView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), SurfaceViewActivity.class);
                 startActivity(intent);
             }
         });
