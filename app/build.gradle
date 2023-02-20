@@ -44,4 +44,5 @@ dependencies {
     implementation fileTree(include: ['*jar'], dir: 'libs')
     implementation files('libs/libDaumMapAndroid.jar')
     implementation 'com.naver.maps:map-sdk:3.14.0'
+    implementation 'com.github.pedroSG94:AutoPermissions:1.0.3'
 }
