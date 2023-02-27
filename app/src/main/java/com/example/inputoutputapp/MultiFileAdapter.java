@@ -27,7 +27,6 @@ public class MultiFileAdapter extends RecyclerView.Adapter<MultiFileAdapter.View
 
     // 아이템 뷰를 저장하는 뷰홀더 클래스.
     public class ViewHolder extends RecyclerView.ViewHolder {
-
         TextView textView;
 
         ViewHolder(View itemView) {
